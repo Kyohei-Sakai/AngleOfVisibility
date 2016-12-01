@@ -9,6 +9,9 @@ public class AnfleOfVisibility : MonoBehaviour {
 	void Start () {
 		Debug.Log (eye.aspect);
 		eye.aspect = 1.0f;
+
+		// Viewport Rectを変更
+//		eye.rect = new Rect (0, 0.5f, 0.5f, 0.5f);
 	
 	}
 	
