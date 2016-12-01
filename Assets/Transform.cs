@@ -7,9 +7,9 @@ public class Transform : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
 		Debug.Log (cube.name);
-//		Debug.Log (cube.transform.GetType);
-		Debug.Log (cube.transform.position.x);
+		Debug.Log (cube.transform.position);
 
 	}
 	
